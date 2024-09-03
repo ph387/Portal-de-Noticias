@@ -47,6 +47,18 @@ main{
     margin-top: 40px;
 }
 
+.content-tag{
+    display: inline-block;
+    background-color: var(--brand-color-dark);   
+    padding: 4px 8px;
+    gap:8px;
+    border-radius: 4px;
+    font: 500 10px/1.2 var(--font-family);
+    text-transform: uppercase;
+    color: var(--text-color-primary);
+    box-shadow: 0px 4px 16px rgba(2, 6, 23 0.251);
+}
+
 /*utility firts*/
 
 .grid{
@@ -56,3 +68,20 @@ main{
 .grid-flow-col{
     grid-auto-flow: column;
 }
+
+.text-2xl{
+    font: var(h1);
+}
+
+.text-xl{
+    font: var(--h2);
+}
+
+.text-lg{
+    font: var(--h3);
+}
+
+.text-span{
+    font: var(--text-span);
+}
+
