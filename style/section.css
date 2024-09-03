@@ -1,0 +1,6 @@
+#destaque{
+    img{
+        height: 100%;
+        object-fit: 100%;
+    }
+}
