@@ -31,6 +31,8 @@ a{
     font: var(--text-span);
     text-decoration: none;
     color: var(--text-color-secondary);
+
+    
 }
 
 img{
@@ -46,10 +48,21 @@ img{
 main{
     margin-top: 40px;
     gap: 80px;
+
+    grid-template-columns: 2fr 1.2fr;
+
+
+    grid-template-areas: 
+    "destaque destaque"
+    "mais-lidas mais-lidas"
+    "ai asides"
+    ;
 }
 
 .content-tag{
     display: inline-block;
+    max-height: 20px;
+    max-width: 152px;
     background-color: var(--brand-color-dark);   
     padding: 4px 8px;
     gap:8px;
